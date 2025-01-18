@@ -1,13 +1,18 @@
-import Image from "next/image";
+import Head from 'next/head';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import Metrics from './components/Metrics';
 
 export default function Home() {
-  return (
-    <div className="">
-      <main className="">
+    return (
+        <div>
+            <Head>
+                <title>Tableau de bord | ManegeYourBusiness</title>
+            </Head>
 
-      </main>
-      <footer className="">
-      </footer>
-    </div>
-  );
+            <Navbar />
+            <Sidebar />
+            <Metrics />
+        </div>
+    );
 }
