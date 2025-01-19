@@ -18,7 +18,7 @@ export default function Sidebar() {
             }`}
         >
             <div className="flex justify-between items-center mb-4">
-                {isOpen && <img src="/logo.png" alt="Logo" className="h-12 w-12" />}
+                {isOpen && <img src="/Logo-MYB.png" alt="Logo" className="h-18 w-22" />}
                 <button
                     className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 p-2 rounded"
                     onClick={handleToggle}
